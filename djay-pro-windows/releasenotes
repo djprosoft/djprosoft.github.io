@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html class='' lang='en'>
+<head>
+<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+<title>djay Pro for Windows » Release Notes</title>
+<link rel="apple-touch-icon" type="image/x-icon" href="https://cdn.algoriddim.com/assets/favicon/apple-touch-icon-b6da06b4971bb7abe4d96bca788dc99ea50360418b720540e8ff1e5080096012.png" sizes="180x180" />
+<link rel="icon" type="image/png" href="https://cdn.algoriddim.com/assets/favicon/favicon-32x32-15747b1a9bbf412e3d66332c2e0727a5811d6ff7cd4a67843c78de2caf852028.png" sizes="32x32" />
+<link rel="icon" type="image/png" href="https://cdn.algoriddim.com/assets/favicon/favicon-16x16-fb66c71d9b68207f205287a2d2b2973878df64214f033435ed3248add5ab84c3.png" sizes="16x16" />
+<link color='#000000' href='https://cdn.algoriddim.com/assets/favicon/safari-pinned-tab-1bb4de26c1c7160302174c8ca5875029a02ba9dfeda2d21872366114836c62e6.svg' rel='mask-icon'>
+<link rel="shortcut icon" type="image/x-icon" href="https://cdn.algoriddim.com/assets/favicon/favicon-98d8c4c1337f04ffec2d2599641e2a5e36c1f7fddb36308c0b388022ac62a206.ico" />
+<link href='/site.webmanifest' rel='manifest'>
+<meta content='#ffffff' name='msapplication-TileColor'>
+<meta content='/browserconfig.xml' name='msapplication-config'>
+<meta content='#000000' name='theme-color'>
+<meta content='@algoriddim' name='twitter:site'>
+<meta content='app-id=450527929, affiliate-data=at=11l5K9&amp;pt=213632&amp;ct=website-smartbanner' name='apple-itunes-app'>
+<meta content='450527929' name='al:ipad:app_store_id'>
+<meta content='djay - DJ App &amp; Mixer' name='al:ipad:app_name'>
+<meta content='450527929' name='al:iphone:app_store_id'>
+<meta content='djay - DJ App &amp; Mixer' name='al:iphone:app_name'>
+<meta content='com.algoriddim.djay_free' name='al:android:package'>
+<meta content='djay FREE for Android' name='al:android:app_name'>
+<meta content='450527929' name='twitter:app:id:ipad'>
+<meta content='450527929' name='twitter:app:id:iphone'>
+<meta content='com.algoriddim.djay_free' name='twitter:app:id:googleplay'>
+
+
+<meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="oM2bppLJkKom/YTh5j3vWHrDNoDavJDD5aPYSEo7AwZyRb0c55ERSdb3A96KAKiSxZop6OffKJEOKwln5+tHmQ==" />
+<script src="https://cdn.algoriddim.com/assets/admin-stats-5140cc348770bf1b416eb755e46a8885c81e82d118e66fa7b3001a30f58adca3.js"></script>
+<!-- /styles -->
+<link rel="stylesheet" media="all" href="https://cdn.algoriddim.com/assets/application-0cb142d697d3043d190b64182ad66778c8b97a774b64880b08ba62aa918f059a.css" />
+<!--[if IE]>
+<link rel="stylesheet" media="all" href="https://cdn.algoriddim.com/assets/all-ie-f13c2c63364d27306b8b4c8a0cea898a482bf254d48ab5efffc507d7a47ffb60.css" />
+<![endif]-->
+<link href='//help.algoriddim.com' rel='dns-prefetch'>
+<link href='//twitter.com' rel='dns-prefetch'>
+<link href='//facebook.com' rel='dns-prefetch'>
+<link href='//geo.itunes.apple.com' rel='dns-prefetch'>
+<link href='//itunes.apple.com' rel='dns-prefetch'>
+<link href='//youtube.com' rel='dns-prefetch'>
+<base target='_top'>
+<meta content='no' http-equiv='imagetoolbar'>
+</head>
+<body class='djay_pro_windows releasenotes djay'>
+<nav class='navbar navbar-default navbar-inverse' role='navigation'>
+<div class='container'>
+<div class='navbar-header'>
+<button aria-expanded='false' class='navbar-toggle pull-left collapsed' data-target='#mainNav' data-toggle='collapse' type='button'>
+<span class='sr-only'>Toggle navigation</span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+<a class='pull-right navbar-brand' href='https://www.algoriddim.com/'>
+<img alt="DJ Software and DJ Apps | Algoriddim" src="https://cdn.algoriddim.com/assets/home/algoriddim-d7c7e560ba3f453e058a711f76f61a640e81d32670ada25670aa30b4e0fc5a8d.svg" width="110" height="22" />
+</a>
+</div>
+<div class='collapse navbar-collapse' id='mainNav'>
+<div class='row'>
+<ul class='nav navbar-nav navbar-main'>
+<li class=''><a href="https://www.algoriddim.com/">Home</a></li>
+<li class='active'><a href="https://www.algoriddim.com/apps">DJ Apps</a></li>
+<li class=''><a href="https://www.algoriddim.com/hardware">DJ Gear</a></li>
+<li class=''><a href="https://www.algoriddim.com/djschool">DJ School</a></li>
+<li class=''><a href="https://help.algoriddim.com">Support</a></li>
+<li class=''><a href="https://www.algoriddim.com/company">Company</a></li>
+<li class='hidden-sm hidden-md hidden-lg social'>
+<a href='//www.instagram.com/AlgoriddimOfficial/' title='Algoriddim on Instagram'>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><title>Algoriddim on Instagram</title><g fill="#FFF" fill-rule="evenodd"><path d="M10.997 2.036c-2.443 0-2.75.01-3.71.054-.957.043-1.611.195-2.183.417A4.411 4.411 0 0 0 3.51 3.543c-.5.499-.808 1-1.038 1.59-.222.571-.374 1.224-.418 2.18C2.01 8.27 2 8.576 2 11.015s.01 2.744.054 3.702c.044.956.196 1.609.418 2.18.23.59.538 1.091 1.038 1.59.5.5 1.002.806 1.594 1.036.572.222 1.226.374 2.184.417.96.044 1.266.054 3.71.054 2.443 0 2.749-.01 3.709-.054.957-.043 1.611-.195 2.184-.417a4.411 4.411 0 0 0 1.593-1.036c.5-.499.808-1 1.038-1.59.222-.571.374-1.224.418-2.18.044-.958.054-1.263.054-3.702s-.01-2.744-.054-3.702c-.044-.956-.196-1.609-.418-2.18a4.401 4.401 0 0 0-1.038-1.59c-.5-.5-1.002-.806-1.593-1.036-.573-.222-1.227-.374-2.184-.417-.96-.044-1.266-.054-3.71-.054m0 1.618c2.403 0 2.687.009 3.636.052.877.04 1.353.186 1.67.31.42.162.72.357 1.035.67.315.315.51.614.673 1.033.123.317.27.792.31 1.668.043.946.052 1.23.052 3.628s-.009 2.682-.052 3.628c-.04.876-.187 1.351-.31 1.668-.163.419-.358.718-.673 1.032a2.788 2.788 0 0 1-1.035.672c-.317.123-.793.27-1.67.31-.949.042-1.233.051-3.636.051-2.402 0-2.687-.009-3.635-.052-.878-.04-1.354-.186-1.671-.31a2.788 2.788 0 0 1-1.035-.67 2.782 2.782 0 0 1-.673-1.033c-.123-.317-.27-.792-.31-1.668-.043-.946-.052-1.23-.052-3.628s.01-2.682.053-3.628c.04-.876.186-1.351.31-1.668.163-.419.358-.718.672-1.032a2.788 2.788 0 0 1 1.035-.672c.317-.123.793-.27 1.67-.31.95-.042 1.234-.051 3.636-.051"></path><path d="M10.997 14.008c-1.656 0-2.999-1.34-2.999-2.993a2.996 2.996 0 0 1 3-2.993 2.996 2.996 0 0 1 2.998 2.993 2.996 2.996 0 0 1-2.999 2.993m0-7.604a4.616 4.616 0 0 0-4.62 4.611 4.616 4.616 0 0 0 4.62 4.611 4.616 4.616 0 0 0 4.62-4.611 4.616 4.616 0 0 0-4.62-4.611M16.88 6.222a1.079 1.079 0 1 1-2.158-.002 1.079 1.079 0 0 1 2.158.002"></path></g></svg>
+
+</a>
+<a href='//www.youtube.com/user/AlgoriddimOfficial' title='Algoriddim on Youtube'>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><title>Algoriddim on Youtube</title><path d="M8 15V7l7 4.014L8 15zm13.78-9.117s-.215-1.763-.874-2.54C20.07 2.323 19.13 2.32 18.7 2.26 15.624 2 11.006 2 11.006 2h-.01S6.377 2 3.3 2.26c-.43.06-1.37.064-2.206 1.083-.66.777-.874 2.54-.874 2.54S0 7.953 0 10.025v1.942c0 2.07.22 4.142.22 4.142s.215 1.762.874 2.54c.837 1.018 1.936.986 2.426 1.093C5.28 19.94 11 20 11 20s4.623-.008 7.7-.267c.43-.06 1.37-.065 2.206-1.084.66-.778.874-2.54.874-2.54s.22-2.072.22-4.143v-1.942c0-2.07-.22-4.142-.22-4.142z" fill="#FFF" fill-rule="evenodd"></path></svg>
+
+</a>
+<a href='//www.facebook.com/djaysoftware' title='Algoriddim on Facebook'>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><title>Algoriddim on Facebook</title><path d="M5.375 2A3.375 3.375 0 0 0 2 5.375v11.25A3.375 3.375 0 0 0 5.375 20h11.25A3.375 3.375 0 0 0 20 16.625V5.375A3.375 3.375 0 0 0 16.625 2H5.375zM15 13h-2v7h-3v-7H8v-3h2V8c0-1.968.718-3 3.333-3h2.134v3H14.5c-.785 0-1.5-.128-1.5.5V10h3l-1 3z" fill="#FFF" fill-rule="evenodd"></path></svg>
+
+</a>
+<a href='//twitter.com/algoriddim' title='Algoriddim on Twitter'>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><title>Algoriddim on Twitter</title><path d="M20.42 3.296a8.93 8.93 0 0 1-2.737.98A4.44 4.44 0 0 0 14.538 3c-2.38 0-4.308 1.81-4.308 4.04 0 .316.038.625.112.92-3.58-.168-6.755-1.776-8.88-4.22A3.836 3.836 0 0 0 .88 5.77c0 1.402.76 2.638 1.916 3.363a4.518 4.518 0 0 1-1.952-.506v.05c0 1.958 1.485 3.59 3.456 3.96a4.593 4.593 0 0 1-1.946.07c.55 1.605 2.14 2.773 4.025 2.805a9.022 9.022 0 0 1-5.353 1.73c-.347 0-.69-.02-1.028-.057A12.783 12.783 0 0 0 6.603 19c7.925 0 12.26-6.155 12.26-11.492 0-.175-.006-.35-.014-.523A8.485 8.485 0 0 0 21 4.895a9.084 9.084 0 0 1-2.475.636c.89-.5 1.573-1.29 1.894-2.233" fill="#FFF" fill-rule="evenodd"></path></svg>
+
+</a>
+</li>
+</ul>
+<ul class='nav navbar-nav navbar-left navbar-logo hidden-xs'>
+<li>
+<a href='https://www.algoriddim.com/'>
+<img alt="DJ Software and DJ Apps | Algoriddim" src="https://cdn.algoriddim.com/assets/home/algoriddim-d7c7e560ba3f453e058a711f76f61a640e81d32670ada25670aa30b4e0fc5a8d.svg" width="110" height="22" />
+</a>
+</li>
+</ul>
+<ul class='nav navbar-nav navbar-right hidden-xs'>
+<li>
+<a href='//www.instagram.com/AlgoriddimOfficial/' title='Algoriddim on Instagram'>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><title>Algoriddim on Instagram</title><g fill="#FFF" fill-rule="evenodd"><path d="M10.997 2.036c-2.443 0-2.75.01-3.71.054-.957.043-1.611.195-2.183.417A4.411 4.411 0 0 0 3.51 3.543c-.5.499-.808 1-1.038 1.59-.222.571-.374 1.224-.418 2.18C2.01 8.27 2 8.576 2 11.015s.01 2.744.054 3.702c.044.956.196 1.609.418 2.18.23.59.538 1.091 1.038 1.59.5.5 1.002.806 1.594 1.036.572.222 1.226.374 2.184.417.96.044 1.266.054 3.71.054 2.443 0 2.749-.01 3.709-.054.957-.043 1.611-.195 2.184-.417a4.411 4.411 0 0 0 1.593-1.036c.5-.499.808-1 1.038-1.59.222-.571.374-1.224.418-2.18.044-.958.054-1.263.054-3.702s-.01-2.744-.054-3.702c-.044-.956-.196-1.609-.418-2.18a4.401 4.401 0 0 0-1.038-1.59c-.5-.5-1.002-.806-1.593-1.036-.573-.222-1.227-.374-2.184-.417-.96-.044-1.266-.054-3.71-.054m0 1.618c2.403 0 2.687.009 3.636.052.877.04 1.353.186 1.67.31.42.162.72.357 1.035.67.315.315.51.614.673 1.033.123.317.27.792.31 1.668.043.946.052 1.23.052 3.628s-.009 2.682-.052 3.628c-.04.876-.187 1.351-.31 1.668-.163.419-.358.718-.673 1.032a2.788 2.788 0 0 1-1.035.672c-.317.123-.793.27-1.67.31-.949.042-1.233.051-3.636.051-2.402 0-2.687-.009-3.635-.052-.878-.04-1.354-.186-1.671-.31a2.788 2.788 0 0 1-1.035-.67 2.782 2.782 0 0 1-.673-1.033c-.123-.317-.27-.792-.31-1.668-.043-.946-.052-1.23-.052-3.628s.01-2.682.053-3.628c.04-.876.186-1.351.31-1.668.163-.419.358-.718.672-1.032a2.788 2.788 0 0 1 1.035-.672c.317-.123.793-.27 1.67-.31.95-.042 1.234-.051 3.636-.051"></path><path d="M10.997 14.008c-1.656 0-2.999-1.34-2.999-2.993a2.996 2.996 0 0 1 3-2.993 2.996 2.996 0 0 1 2.998 2.993 2.996 2.996 0 0 1-2.999 2.993m0-7.604a4.616 4.616 0 0 0-4.62 4.611 4.616 4.616 0 0 0 4.62 4.611 4.616 4.616 0 0 0 4.62-4.611 4.616 4.616 0 0 0-4.62-4.611M16.88 6.222a1.079 1.079 0 1 1-2.158-.002 1.079 1.079 0 0 1 2.158.002"></path></g></svg>
+
+</a>
+</li>
+<li>
+<a href='//www.youtube.com/user/AlgoriddimOfficial' title='Algoriddim on Youtube'>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><title>Algoriddim on Youtube</title><path d="M8 15V7l7 4.014L8 15zm13.78-9.117s-.215-1.763-.874-2.54C20.07 2.323 19.13 2.32 18.7 2.26 15.624 2 11.006 2 11.006 2h-.01S6.377 2 3.3 2.26c-.43.06-1.37.064-2.206 1.083-.66.777-.874 2.54-.874 2.54S0 7.953 0 10.025v1.942c0 2.07.22 4.142.22 4.142s.215 1.762.874 2.54c.837 1.018 1.936.986 2.426 1.093C5.28 19.94 11 20 11 20s4.623-.008 7.7-.267c.43-.06 1.37-.065 2.206-1.084.66-.778.874-2.54.874-2.54s.22-2.072.22-4.143v-1.942c0-2.07-.22-4.142-.22-4.142z" fill="#FFF" fill-rule="evenodd"></path></svg>
+
+</a>
+</li>
+<li>
+<a href='//www.facebook.com/djaysoftware' title='Algoriddim on Facebook'>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><title>Algoriddim on Facebook</title><path d="M5.375 2A3.375 3.375 0 0 0 2 5.375v11.25A3.375 3.375 0 0 0 5.375 20h11.25A3.375 3.375 0 0 0 20 16.625V5.375A3.375 3.375 0 0 0 16.625 2H5.375zM15 13h-2v7h-3v-7H8v-3h2V8c0-1.968.718-3 3.333-3h2.134v3H14.5c-.785 0-1.5-.128-1.5.5V10h3l-1 3z" fill="#FFF" fill-rule="evenodd"></path></svg>
+
+</a>
+</li>
+<li>
+<a href='//twitter.com/algoriddim' title='Algoriddim on Twitter'>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22"><title>Algoriddim on Twitter</title><path d="M20.42 3.296a8.93 8.93 0 0 1-2.737.98A4.44 4.44 0 0 0 14.538 3c-2.38 0-4.308 1.81-4.308 4.04 0 .316.038.625.112.92-3.58-.168-6.755-1.776-8.88-4.22A3.836 3.836 0 0 0 .88 5.77c0 1.402.76 2.638 1.916 3.363a4.518 4.518 0 0 1-1.952-.506v.05c0 1.958 1.485 3.59 3.456 3.96a4.593 4.593 0 0 1-1.946.07c.55 1.605 2.14 2.773 4.025 2.805a9.022 9.022 0 0 1-5.353 1.73c-.347 0-.69-.02-1.028-.057A12.783 12.783 0 0 0 6.603 19c7.925 0 12.26-6.155 12.26-11.492 0-.175-.006-.35-.014-.523A8.485 8.485 0 0 0 21 4.895a9.084 9.084 0 0 1-2.475.636c.89-.5 1.573-1.29 1.894-2.233" fill="#FFF" fill-rule="evenodd"></path></svg>
+
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</nav>
+<div class='type-company m-b-50'>
+<div class='container'>
+<div class='row'>
+<div class='col-sm-12 hidden-xs'>
+<ul class='nav nav-pills nav-productheader'></ul>
+</div>
+</div>
+</div>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='panel panel-default'>
+<div class='panel-body'>
+<div class='row'>
+<div class='col-xs-12'>
+<h1>Release Notes</h1>
+<h2>The history of djay Pro for Windows.</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12 col-sm-8 col-lg-7'>
+<ul>
+<li class='release'>
+<a name='1.0.27697.0'></a>
+<div class='date'>October 20, 2020</div>
+<h4>djay Pro 1.0.27697.0</h4>
+<ul>
+	<li>Improved SoundCloud library with explicit track markings</li>
+	<li>Fixed SoundCloud liked tracks refresh issue</li>
+	<li>Various bugfixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27694.0'></a>
+<div class='date'>October 05, 2020</div>
+<h4>djay Pro 1.0.27694.0</h4>
+<ul>
+	<li>Bugfixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27692.0'></a>
+<div class='date'>August 24, 2020</div>
+<h4>djay Pro 1.0.27692.0</h4>
+<ul>
+	<li>Added BPM and key information in SoundCloud library</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27686.0'></a>
+<div class='date'>June 28, 2020</div>
+<h4>djay Pro 1.0.27686.0</h4>
+<ul>
+	<li>Various bug fixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27685.0'></a>
+<div class='date'>May 27, 2020</div>
+<h4>djay Pro 1.0.27685.0</h4>
+<ul>
+	<li>Fixed previewing of songs in media library</li>
+	<li>Various bug fixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27684.0'></a>
+<div class='date'>May 14, 2020</div>
+<h4>djay Pro 1.0.27684.0</h4>
+<ul>
+	<li>Various bug fixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27682.0'></a>
+<div class='date'>May 06, 2020</div>
+<h4>djay Pro 1.0.27682.0</h4>
+<ul>
+	<li>Fixed possible crash when browsing long playlists from streaming services</li>
+	<li>Various bug fixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27679.0'></a>
+<div class='date'>March 19, 2020</div>
+<h4>djay Pro 1.0.27679.0</h4>
+<ul>
+	<li>Fixed BPM values in media library not updating in some cases</li>
+	<li>Fixed songs sometimes not showing up in Queue</li>
+	<li>Various bug fixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27676.0'></a>
+<div class='date'>February 26, 2020</div>
+<h4>djay Pro 1.0.27676.0</h4>
+<ul>
+	<li>Bugfixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27671.0'></a>
+<div class='date'>February 06, 2020</div>
+<h4>djay Pro 1.0.27671.0</h4>
+<ul>
+	<li>Bugfixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27670.0'></a>
+<div class='date'>January 30, 2020</div>
+<h4>djay Pro 1.0.27670.0</h4>
+<p>We’re excited to introduce a major update, free to all existing djay Pro for Windows users. You can now access SoundCloud’s extensive music catalog to discover and mix millions of underground and premium tracks, and TIDAL integration offers millions of tracks in prestine sound quality!</p>
+<ul>
+	<li>Added TIDAL integration (TIDAL Premium)</li>
+	<li>Added SoundCloud integration (SoundCloud Go+)</li>
+	<li>Free selection of featured tracks through SoundCloud feature emerging artists across a variety of genres including hip-hop, house, tech house, festival EDM, trap and dubstep.</li>
+	<li>Bugfixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27578.0'></a>
+<div class='date'>August 05, 2019</div>
+<h4>djay Pro 1.0.27578.0</h4>
+<ul>
+	<li>Improved cue point jump precision and audio quality with key lock enabled</li>
+	<li>Improved behavior of loop actions</li>
+	<li>Fixed auto loop duration not being updated in some cases</li>
+	<li>Fixed audio device names containing non-English characters being displayed incorrectly</li>
+	<li>Fixed incorrect shortcuts listed in keyboard shortcut overview</li>
+	<li>Various bug fixes and performance improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27493.0'></a>
+<div class='date'>May 15, 2019</div>
+<h4>djay Pro 1.0.27493.0</h4>
+<ul>
+	<li>Fixed an issue where cue points could not longer be set</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27492.0'></a>
+<div class='date'>May 14, 2019</div>
+<h4>djay Pro 1.0.27492.0</h4>
+<ul>
+	<li>Introducing support for the new Pioneer DJ DDJ-200 controller (supported via USB)</li>
+	<li>Added support for Pioneer DJ DDJ-1000, DDJ-400, DDJ-SR2, XDJ-RX2</li>
+	<li>Added support for Hercules DJControl Inpulse 200 and 300, and DJControl Starlight</li>
+	<li>Added support for Numark Party Mix Pro</li>
+	<li>Fixed possible issue where scrolling media library via MIDI controller would not stop</li>
+	<li>Fixed possible crash when playing WMA files</li>
+	<li>Fixed Reloop Mixon 4 and Mixtour master level meters and other LEDs not working</li>
+	<li>Fixed Numark Party Mix pad mode mappings</li>
+	<li>Bug fixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27457.0'></a>
+<div class='date'>July 19, 2018</div>
+<h4>djay Pro 1.0.27457.0</h4>
+<ul>
+	<li>Improved playback of tracks from Spotify</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.27452.0'></a>
+<div class='date'>July 02, 2018</div>
+<h4>djay Pro 1.0.27452.0</h4>
+<ul>
+	<li>Added support for Pioneer DDJ-SB3 and Numark Party Mix DJ controllers</li>
+	<li>Added support for FLAC audio files</li>
+	<li>Added improved beat-synchronized scrubbing through songs</li>
+	<li>Improved song loading to allow loading a new song when another is currently loading on the same deck</li>
+	<li>Improved stability and performance when playing music from Spotify</li>
+	<li>Fixed issues with Denon MC7000 and MCX8000 DJ controllers</li>
+	<li>Improved stability and performance</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.26742.0'></a>
+<div class='date'>May 05, 2018</div>
+<h4>djay Pro 1.0.26742.0</h4>
+<ul>
+	<li>Added support for selecting individual audio interfaces and channels for master and monitor output</li>
+	<li>Improved performance when loading Spotify libraries and artwork</li>
+	<li>Improved performance when using MIDI controllers</li>
+	<li>Improved volume metering</li>
+	<li>Fixes iTunes support if music is not in Music folder or external HD</li>
+	<li>Various fixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.26480.0'></a>
+<div class='date'>May 10, 2017</div>
+<h4>djay Pro 1.0.26480.0</h4>
+<ul>
+	<li>Fixed Spotify search field loosing focus in some cases</li>
+	<li>Various fixes and improvements</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.26471.0'></a>
+<div class='date'>April 12, 2017</div>
+<h4>djay Pro 1.0.26471.0</h4>
+<ul>
+	<li>Fixed installation issues on some machines</li>
+</ul>
+</li>
+<li class='release'>
+<a name='1.0.26468.0'></a>
+<div class='date'>April 10, 2017</div>
+<h4>djay Pro 1.0.26468.0</h4>
+<ul>
+	<li>Initial release</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class='col-sm-1 col-lg-2 hidden-xs'></div>
+<div class='col-xs-12 col-sm-4 col-lg-3'>
+<div class='contact'>
+<h4>Subscribe to News</h4>
+<p>Want home delivery of the latest news about djay? Simply enter your email address below and confirm:</p>
+<form action='//algoriddim.us1.list-manage.com/subscribe/post?u=23986cdbafe38661680f0582f&amp;amp;id=e15238ca5a' class='form-inline' method='POST' name='mc-embedded-subscribe-form' target='_blank'>
+<input id='mc-source' name='group[2]' type='hidden' value='4096'>
+<p class='succFadeOut'>
+<input autocapitalize='off' autocorrect='off' class='mce-EMAIL required useremail form-control rounded m-b-20' name='EMAIL' placeholder='Email' required='required' type='email' value=''>
+<input class='mc-embedded-subscribe btn m-b-20' name='subscribe' type='submit' value='Subscribe'>
+</p>
+<img class="spinner hide" src="https://cdn.algoriddim.com/assets/spinner-851128c99a090ff44e0fe6b319e50a44f99bd0686461b052ad367f6259109adf.gif" width="16" height="16" />
+<div class='mce-response hide'></div>
+</form>
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<footer>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12 col-sm-6'>
+<p class='text-left'>
+&copy; 2020 algoriddim GmbH
+<br class='hidden-sm hidden-md hidden-lg'>
+<span class='hidden-xs'>
+•
+</span>
+All rights reserved • <a rel="nofollow" href="/company#imprint">Imprint</a> • <a rel="nofollow" href="/privacy">Privacy Policy</a>
+<br>
+Mac OS, Mac, iPad, iPhone, iPod touch, iTunes, iTunes Store, and AirPlay are trademarks of Apple Inc, registered in the U.S and other countries. Multi-Touch is a trademark of Apple Inc.
+</br>
+</p>
+</div>
+<div class='col-xs-12 col-sm-6 hidden-xs fb'>
+<div class='fb-like' data-action='like' data-colorscheme='dark' data-href='https://www.facebook.com/djaysoftware' data-layout='standard' data-share='false' data-show-faces='true' data-width='345'></div>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12 col-sm-offset-2 col-md-offset-2 col-lg-offset-2 col-sm-8 col-mg-8 col-lg-8'></div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.algoriddim.com/assets/application-67db511c06c973dbebe75326d7dcd98e70ad5abad53f0040c7e6192959a661bb.js"></script>
+
+<script>
+  var disableStr = 'ga-disable-UA-3034860-1';
+  if (document.cookie.indexOf(disableStr + '=true') > -1) {
+    window[disableStr] = true;
+  }
+  function gaOptout() {
+    document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+    window[disableStr] = true;
+    alert('Google Analytics was disabled.');
+  }
+  
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MZN76PQ');
+</script>
+
+<div id='consent'>
+<div class='container'>
+<div class='row'>
+<div class='col-xs-12'>
+<p>
+We use cookies on our website. By continuing, you agree to this. More
+information about cookies can be found
+<a rel="nofollow" class="privacy" href="/privacy">here</a>
+<a class='btn btn-default btn-xs btn-consent' href='#' rel='nofollow'>
+Got it
+</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+</html>

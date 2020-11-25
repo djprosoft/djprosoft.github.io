@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- v18874 -->
+
+  <title>How do I configure a MIDI controller using MIDI Learn? &ndash; Algoriddim Support</title>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="hc:meta:server:fXaNdhQPh9f7l1c0OsWRc6DWaqD3Tg/2mZHD55WBt0ZzxezHYfMvjc6sMtTtjJFAVNe0Mwbf3BoMhuOZK7JTVg==" />
+
+  <meta name="description" content="Custom MIDI maps are a powerful tool to get the most out of your hardware and workflow. If you find yourself missing some functionality..." /><meta property="og:image" content="https://theme.zdassets.com/theme_assets/2368378/59f39d17526c5033e587f737f258dc41bd47b26e.png" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Algoriddim Support" />
+<meta property="og:title" content="How do I configure a MIDI controller using MIDI Learn?" />
+<meta property="og:description" content="Custom MIDI maps are a powerful tool to get the most out of your hardware and workflow. If you find yourself missing some functionality from your existing setup, you can easily add an extra MIDI co..." />
+<meta property="og:url" content="https://help.algoriddim.com/hc/en-us/articles/360014911931-How-do-I-configure-a-MIDI-controller-using-MIDI-Learn-" />
+<link rel="canonical" href="https://help.algoriddim.com/hc/en-us/articles/360014911931-How-do-I-configure-a-MIDI-controller-using-MIDI-Learn-" />
+<link rel="alternate" hreflang="en" href="https://help.algoriddim.com/hc/en-us/articles/360014911931-How-do-I-configure-a-MIDI-controller-using-MIDI-Learn-" />
+
+  <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/application-ebbf4a70487f9466c9be47bf4b6055f6.css" id="stylesheet" />
+    <!-- Entypo pictograms by Daniel Bruce — www.entypo.com -->
+    <link rel="stylesheet" media="all" href="//static.zdassets.com/hc/assets/theming_v1_support-7eacdab8920220a42cfc91404f4ed182.css" />
+  <link rel="stylesheet" type="text/css" href="//p18.zdassets.com/hc/theming_assets/2368378/360000892251/style.css?digest=360219480580" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="//theme.zdassets.com/theme_assets/2368378/9989e84efa17736b261f22c0004d2e5deda326bb.ico" />
+
+    <script src="//static.zdassets.com/hc/assets/jquery-d5395f0b7ac5027403fc17855c46dbfc.js"></script>
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-3034860-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+  <script type="text/javascript" src="//p18.zdassets.com/hc/theming_assets/2368378/360000892251/script.js?digest=360219480580"></script>
+<script async src='/cdn-cgi/bm/cv/2172558837/api.js'></script></head>
+<body class="">
+  
+  
+
+  <div id="header">
+  <header class="header">
+    <div id="hamburger">
+    	<img src="//theme.zdassets.com/theme_assets/2368378/91d5c77d53aea8e8a3b28d689414b2c45397befd.svg" class="" height="22px" width="22px" />
+    </div>
+    <div class="logo">
+      <a href="https://www.algoriddim.com/">
+        <img src="//theme.zdassets.com/theme_assets/2368378/d2b52d8325272a90fa656faec24ed96a1fc67f44.svg" height='22px' width='110px' alt="Logo">
+      </a>
+    </div>
+    <div class="main-nav">
+      <a href="https://www.algoriddim.com/">Home</a>
+      <a href="https://www.algoriddim.com/apps">DJ Apps</a>
+      <a href="https://www.algoriddim.com/hardware">DJ Gear</a>
+      <a href="https://www.algoriddim.com/djschool">DJ School</a>
+      <a href="http://help.algoriddim.com" class="active">Support</a>
+      <a href="https://www.algoriddim.com/company">Company</a>
+    </div>
+    <div class="social-bar">
+      <a href="//www.instagram.com/AlgoriddimOfficial/" title="Algoriddim on Instagram" target="_blank">
+        <img src="//theme.zdassets.com/theme_assets/2368378/c50e417c8d431090d353887556a73f9af65d278b.svg" height="22px" width="22px" />
+      </a>
+      <a href="//www.youtube.com/user/AlgoriddimOfficial" title="Algoriddim on Youtube" target="_blank">
+        <img src="//theme.zdassets.com/theme_assets/2368378/96cc10478f489888302fbbf71f158c706faf2e6e.svg" height="22px" width="22px" />
+      </a>
+      <a href="//www.facebook.com/djaysoftware" title="Algoriddim on Facebook" target="_blank">
+        <img src="//theme.zdassets.com/theme_assets/2368378/cd80666eb7fdb45ebdf528fd242498a06bb65bfd.svg" height="22px" width="22px" />
+      </a>
+      <a href="//twitter.com/algoriddim" title="Algoriddim on Twitter" target="_blank">
+        <img src="//theme.zdassets.com/theme_assets/2368378/e4a74cd27a297be5176726a74fa0c8fa8e629857.svg" height="22px" width="22px" />
+      </a>
+    </div>
+  </header>
+</div>
+
+  <main role="main">
+    <div id="subheader">
+  <div class="container">
+    <nav class="sub-nav">
+      <ol class="breadcrumbs">
+  
+    <li title="Algoriddim Support">
+      
+        <a href="/hc/en-us">Algoriddim Support</a>
+      
+    </li>
+  
+    <li title="djay Pro for Windows">
+      
+        <a href="/hc/en-us/sections/360002065172-djay-Pro-for-Windows">djay Pro for Windows</a>
+      
+    </li>
+  
+</ol>
+
+      <form role="search" class="search" data-search="" action="/hc/en-us/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="category" id="category" value="360000876292" />
+<input type="search" name="query" id="query" placeholder="Search articles" aria-label="Search articles" /></form>
+    </nav>
+  </div>
+</div>
+<div class="bg-white">
+  <div class="container">
+  <div id="article-container">
+
+    <article class="article">
+      <header class="article-header">
+        <h1 title="How do I configure a MIDI controller using MIDI Learn?" class="article-title">
+          How do I configure a MIDI controller using MIDI Learn?
+          
+        </h1>
+      </header>
+
+      <section class="article-info">
+        <div class="article-content">
+          <div class="article-body"><p>Custom MIDI maps are a powerful tool to get the most out of your hardware and workflow. If you find yourself missing some functionality from your existing setup, you can easily add an extra MIDI controller or simply change the way your current one is mapped.</p>
+<p>Follow the short tutorial below on how to map the play/pause button to get a feeling for how the djay Pro MIDI Learn feature works.&nbsp;</p>
+<p><img src="/hc/article_attachments/360009913672/5b80ef275bb22.png" alt="djay Pro Windows MIDI Learn"></p>
+<p>To start mapping a new MIDI device, follow these steps:</p>
+<ol>
+<li>Launch <strong>djay Pro</strong> and wait for it to be fully loaded.</li>
+<li>Plug your MIDI controller into your computer via a spare USB port and turn it on. If this&nbsp;is the first time using the controller, you will see a pop-up message asking if you want to configure the device. Click <strong>Yes</strong>.<br> <img src="/hc/article_attachments/360009913692/5b80ef283ceb3.png" alt=""></li>
+<li>Next, the device <strong>MIDI Configuration</strong> window will load, displaying a blank mapping screen.</li>
+<li>To start mapping your first MIDI signal, use the desired control for the editor to pick up the correct note or CC to add to the list. Press a button on your controller to add this to the list.</li>
+<li>You then need to select both the <strong>Target</strong> within the software and the <strong>Action</strong> the control will perform. From the Target drop-down list, choose Deck 1, and from the Action drop-down, choose <strong>Play/Pause</strong>.</li>
+<li>You have now mapped the <strong>Deck 1 PLAY</strong> button to your controller. Load a track and test it out!</li>
+<li>Keep mapping the basic controls until you have everything you need and hit <strong>DONE</strong> to save the config.</li>
+</ol>
+<h4>MIDI control targets</h4>
+<p>Targets are a simple way to break down what controls your MIDI signals are "targeting". These targets are general areas of the user interface to help make it easier to find the right command to map. You can choose from <strong>Decks 1 to 4, Mixer, Music library, Sampler, Microphone,</strong> or <strong>General</strong>. You can further drill down into these target sections through the target's <strong>Actions</strong> drop-down.</p>
+<h4>Advanced control options</h4>
+<p>To show the <strong>Advanced Control Options,</strong> expand the section by clicking the header. These settings are designed to tweak how your MIDI commands respond, should they not work as you want them to.<br> Control type: Choose from <strong>Button, Fader/Knob, Rotary (01h/7Fh), Rotary (3Fh/41h), Rotary (absolute)</strong>.</p></div>
+
+          <div class="article-attachments">
+            <ul class="attachments">
+              
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="article-footer">
+          
+          
+          
+        </div>
+        
+          <div class="article-votes">
+            <span class="article-votes-question">Was this article helpful?</span>
+            <div class="article-votes-controls" role='radiogroup'>
+              <a class="button article-vote article-vote-up" data-helper="vote" data-item="article" data-type="up" data-id="360014911931" data-upvote-count="60" data-vote-count="185" data-vote-sum="-65" data-vote-url="/hc/en-us/articles/360014911931/vote" data-value="null" data-label="60 out of 185 found this helpful" data-selected-class="null" aria-selected="false" role="radio" rel="nofollow" title="Yes" href="#"></a>
+              <a class="button article-vote article-vote-down" data-helper="vote" data-item="article" data-type="down" data-id="360014911931" data-upvote-count="60" data-vote-count="185" data-vote-sum="-65" data-vote-url="/hc/en-us/articles/360014911931/vote" data-value="null" data-label="60 out of 185 found this helpful" data-selected-class="null" aria-selected="false" role="radio" rel="nofollow" title="No" href="#"></a>
+            </div>
+            <small class="article-votes-count">
+              <span class="article-vote-label" data-helper="vote" data-item="article" data-type="label" data-id="360014911931" data-upvote-count="60" data-vote-count="185" data-vote-sum="-65" data-vote-url="/hc/en-us/articles/360014911931/vote" data-value="null" data-label="60 out of 185 found this helpful">60 out of 185 found this helpful</span>
+            </small>
+          </div>
+        
+
+        <div class="article-more-questions">
+          <p><strong>Have more questions?</strong></p>
+      <p>Check out the <a href="https://community.algoriddim.com">Algoriddim Community Forums</a> or <a href="/hc/en-us/requests/new">contact us</a>.</p>
+        </div>
+        <div class="article-return-to-top">
+          <a href="#header">Return to top<span class="icon-arrow-up"></span></a>
+        </div>
+      </footer>
+
+      
+      
+      
+    </article>
+    
+    <section class="article-sidebar">
+      <section class="section-articles collapsible-sidebar">
+        <h3 class="collapsible-sidebar-title sidenav-title">Articles in this section</h3>
+        <ul>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014702852-User-Manual-for-djay-Pro-for-Windows" class="sidenav-item ">User Manual for djay Pro for Windows</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014702732-How-do-I-purchase-djay-Pro-for-Windows-" class="sidenav-item ">How do I purchase djay Pro for Windows?</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014703032-Which-MIDI-controllers-are-supported-by-djay-Pro-for-Windows-" class="sidenav-item ">Which MIDI controllers are supported by djay Pro for Windows?</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014911931-How-do-I-configure-a-MIDI-controller-using-MIDI-Learn-" class="sidenav-item current-article">How do I configure a MIDI controller using MIDI Learn?</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014912071-How-can-I-use-an-external-mixer-with-djay-Pro-" class="sidenav-item ">How can I use an external mixer with djay Pro?</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014703392-How-do-I-improve-audio-and-MIDI-latency-" class="sidenav-item ">How do I improve audio and MIDI latency?</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014912031-Pre-cueing-does-not-work-with-my-MIDI-controller-What-should-I-do-" class="sidenav-item ">Pre-cueing does not work with my MIDI controller. What should I do?</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014702932-How-can-I-use-my-iTunes-library-with-djay-Pro-for-Windows-" class="sidenav-item ">How can I use my iTunes library with djay Pro for Windows?</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014912131-Where-does-djay-Pro-store-cue-points-and-other-metadata-" class="sidenav-item ">Where does djay Pro store cue points and other metadata?</a>
+            </li>
+          
+            <li>
+              <a href="/hc/en-us/articles/360014912191-How-can-I-import-cue-points-from-another-djay-Pro-installation-" class="sidenav-item ">How can I import cue points from another djay Pro installation?</a>
+            </li>
+          
+        </ul>
+        
+          <a href="/hc/en-us/sections/360002065172-djay-Pro-for-Windows" class="article-sidebar-item">See more</a>
+        
+      </section>
+    </section>
+    
+  </div>
+</div>
+</div>
+
+
+  </main>
+
+  <footer class="footer">
+  <div class="footer-nl">
+    <div class="half" style="padding-right: 15px;">
+    	<h1 class="text-right">Sign up for our newsletter</h1>
+    </div>
+    <div class="half" style="padding-left: 15px;">
+    	<div id="mc_embed_signup">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script> 
+        <form action="https://algoriddim.us1.list-manage.com/subscribe/post?u=23986cdbafe38661680f0582f&amp;id=e15238ca5a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+          <div id="mc_embed_signup_scroll">
+            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
+            <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_23986cdbafe38661680f0582f_e15238ca5a" tabindex="-1" value=""></div>
+            <div class="clear"></div>
+          </div>
+        </form>
+      </div>
+      <!--End mc_embed_signup-->
+    </div>
+    <div style="display:block; clear:both;">
+      <div id="mce-responses" class="clear m-b-20 text-center">
+        <div class="response" id="mce-error-response" style="display:none"></div>
+        <div class="response" id="mce-success-response" style="display:none"></div>
+      </div>    
+      <p class="text-center">
+        I would like to read about the latest and greatest on the djay product line by Algoriddim. If I should change my mind, I can unsubscribe at any time. Further information can be found in the <a href='https://www.algoriddim.com/privacy'>privacy policy.</a>
+      </p>
+    </div>
+  </div>
+  <div class="footer-menu m-t-80 m-b-60">
+    <div class="xs-nav text-center">
+      <a href="https://www.algoriddim.com/apps">
+      	<b>DJ Apps</b>
+      </a>
+      <a href="https://www.algoriddim.com/djay-pro-mac">djay Pro for Mac</a>
+      <a href="https://www.algoriddim.com/djay-pro-windows">djay Pro for Windows</a>
+      <a href="https://www.algoriddim.com/djay-ios">djay for iOS</a>
+      <a href="https://www.algoriddim.com/djay-android">djay 2 for Android</a>
+    </div>
+    <div class="xs-nav text-center">
+      <a href="https://www.algoriddim.com/hardware">
+      	<b>DJ Gear</b>
+      </a>
+      <a href="https://www.algoriddim.com/hardware">DJ Controllers</a>
+      <br>
+      <a href="https://www.algoriddim.com/djschool">
+      	<b>DJ School</b>
+      </a>
+      <a href="https://www.algoriddim.com/djschool">DJ Tutorials</a>
+    </div>
+    <div class="xs-nav text-center">
+      <a href="https://www.algoriddim.com/company">
+      	<b>Company</b>
+      </a>
+      <a href="https://www.algoriddim.com/company">About</a>
+      <a href="https://www.algoriddim.com/jobs">Jobs</a>
+      <a href="https://www.algoriddim.com/news">News</a>
+      <a href="https://www.algoriddim.com/press">Press</a>
+    </div>
+    <div class="xs-nav text-center">
+    	<a href="https://help.algoriddim.com">
+      	<b>Support</b>
+      </a>
+      <a href="https://help.algoriddim.com/hc/en-us/requests/new">Contact Us</a>
+      <a href="https://help.algoriddim.com">FAQs</a>
+      <a href="http://community.algoriddim.com">Forums</a>
+    </div>
+  </div>
+  <div class="footer-inner text-center">
+    <a href="https://www.algoriddim.com/">
+      <img src="//theme.zdassets.com/theme_assets/2368378/d2b52d8325272a90fa656faec24ed96a1fc67f44.svg" height='36px' width='180px' alt="Logo">
+    </a>
+
+    <div class="social-bar m-t-10 m-b-10">
+    <a href="//www.instagram.com/AlgoriddimOfficial/" title="Algoriddim on Instagram" target="_blank">
+      <img src="//theme.zdassets.com/theme_assets/2368378/c50e417c8d431090d353887556a73f9af65d278b.svg" class="" height="22px" width="22px" /> 
+    </a>
+    <a href="//www.youtube.com/user/AlgoriddimOfficial" title="Algoriddim on Youtube" target="_blank">
+      <img src="//theme.zdassets.com/theme_assets/2368378/96cc10478f489888302fbbf71f158c706faf2e6e.svg" class="" height="22px" width="22px" />
+    </a>
+    <a href="//www.facebook.com/djaysoftware" title="Algoriddim on Facebook" target="_blank">
+      <img src="//theme.zdassets.com/theme_assets/2368378/cd80666eb7fdb45ebdf528fd242498a06bb65bfd.svg" class="" height="22px" width="22px" />
+    </a>
+    <a href="//twitter.com/algoriddim" title="Algoriddim on Twitter" target="_blank">
+      <img src="//theme.zdassets.com/theme_assets/2368378/e4a74cd27a297be5176726a74fa0c8fa8e629857.svg" class="" height="22px" width="22px" />
+    </a>
+  </div>
+  <p class='m-c'>
+    © 2019 algoriddim GmbH
+    <br class="hidden-sm">
+    <span class="hidden-xs">
+    •
+    </span>
+    All rights reserved • <a href="https://www.algoriddim.com/company" rel="nofollow">Imprint</a> • <a href="https://www.algoriddim.com/privacy" rel="nofollow">Privacy&nbsp;Policy</a>
+    <br>
+    Mac OS, Mac, iPad, iPhone, iPod touch, iTunes, iTunes Store, and AirPlay are trademarks of Apple Inc, registered in the U.S and other countries.
+    <br>
+    Multi-Touch is a&nbsp;trademark of Apple Inc.
+  </p>
+
+
+    <div class="footer-language-selector">
+      
+    </div>
+  </div>
+</footer>
+
+
+
+  <!-- / -->
+
+  
+  <script src="//static.zdassets.com/hc/assets/en-us.170767824a96f6fd47e8.js"></script>
+  <script src="https://algoriddim.zendesk.com/auth/v2/host.js" data-brand-id="360000892251" data-return-to="https://help.algoriddim.com/hc/en-us/articles/360014911931-Configuring-a-MIDI-controller-using-MIDI-Learn" data-theme="hc" data-locale="en-us" data-auth-origin="360000892251,true,true"></script>
+
+  <script type="text/javascript">
+  /*
+
+    Greetings sourcecode lurker!
+
+    This is for internal Zendesk and legacy usage,
+    we don't support or guarantee any of these values
+    so please don't build stuff on top of them.
+
+  */
+
+  HelpCenter = {};
+  HelpCenter.account = {"subdomain":"algoriddim","environment":"production","name":"Algoriddim"};
+  HelpCenter.user = {"identifier":"da39a3ee5e6b4b0d3255bfef95601890afd80709","email":null,"name":null,"role":"anonymous","avatar_url":"https://assets.zendesk.com/hc/assets/default_avatar.png","is_admin":false,"organizations":[],"groups":[]};
+  HelpCenter.internal = {"asset_url":"//static.zdassets.com/hc/assets/","web_widget_asset_composer_url":"https://static.zdassets.com/ekr/snippet.js","current_session":{"locale":"en-us","csrf_token":"hc:hcobject:server:R66uBIkYRJUieFLI3ofzWaWSIR+6CBQ8sbkWGFJSb69JHc+1/OTszxdDNygJzvNqUZP/jEuZx9AkrjZm7GGLvw==","shared_csrf_token":null},"settings":{},"usage_tracking":{"event":"article_viewed","data":"BAh7CDoLbG9jYWxlSSIKZW4tdXMGOgZFVDoPYXJ0aWNsZV9pZGwrCLuZj9JTADoKX21ldGF7CzoPYWNjb3VudF9pZGkDeiMkOhNoZWxwX2NlbnRlcl9pZGwrCM8Mr9FTADoNYnJhbmRfaWRsKwhbrbnRUwA6DHVzZXJfaWQwOhN1c2VyX3JvbGVfbmFtZUkiDkFOT05ZTU9VUwY7BlQ7AEkiCmVuLXVzBjsGVA==--c9a8b0da9846b55260ec4603dbcd6bbd16c6b1a6","url":"https://help.algoriddim.com/hc/tracking/events?locale=en-us"},"current_record_id":"360014911931","current_record_url":"/hc/en-us/articles/360014911931-How-do-I-configure-a-MIDI-controller-using-MIDI-Learn-","current_record_title":"How do I configure a MIDI controller using MIDI Learn?","search_results_count":null,"current_text_direction":"ltr","current_brand":{"account_id":2368378,"brand_id":360000892251,"brand_url":"https://help.algoriddim.com","url":"https://algoriddim.zendesk.com/api/v2/brands/360000892251.json","name":"Algoriddim","logo":"","subdomain":"algoriddim","host_mapping":"help.algoriddim.com","help_center_state":"enabled","ticket_form_ids":null,"active":true,"default":true,"has_help_center":true,"created_at":"2018-07-05T12:34:44Z","updated_at":"2020-01-13T08:44:32Z","id":360000892251,"route_id":2338084},"current_brand_url":"https://algoriddim.zendesk.com","current_host_mapping":"help.algoriddim.com","current_path":"/hc/en-us/articles/360014911931-How-do-I-configure-a-MIDI-controller-using-MIDI-Learn-","authentication_domain":"https://algoriddim.zendesk.com","show_autocomplete_breadcrumbs":false,"rollbar_config":{"enabled":true,"endpoint":"https://rollbar-eu.zendesk.com/api/1/item/","accessToken":"f575c68c45fc4d5e9025994620c5c3dc","captureUncaught":true,"captureUnhandledRejections":true,"payload":{"environment":"production","client":{"javascript":{"source_map_enabled":true,"code_version":"4db66c0249e57a58b0cbe276e283e37885ecee12","guess_uncaught_frames":true}}}},"user_info_changing_enabled":false,"has_user_profiles_enabled":false,"has_end_user_attachments":true,"user_aliases_enabled":false,"has_anonymous_kb_voting":true,"has_multi_language_help_center":false,"mobile_device":false,"mobile_site_enabled":false,"show_at_mentions":false,"embeddables_config":{"embeddables_web_widget":false,"embeddables_connect_ipms":false},"base_domain":"zendesk.com","answer_bot_subdomain":"static","manage_content_url":"https://help.algoriddim.com/hc/en-us","arrange_content_url":"https://help.algoriddim.com/hc/admin/arrange_contents?locale=en-us","general_settings_url":"https://help.algoriddim.com/hc/admin/general_settings?locale=en-us","user_segments_url":"https://algoriddim.zendesk.com/knowledge/user_segments?brand_id=360000892251","has_community_enabled":false,"has_community_badges":false,"has_user_segments":true,"has_answer_bot_web_form_enabled":false,"has_answer_bot_web_form_modal_v2":false,"billing_url":"/access/return_to?return_to=https://algoriddim.zendesk.com/admin/billing/subscription","has_answer_bot":true,"has_block_answer_bot_embeddable":false,"answer_bot_management_url":"/access/return_to?return_to=https://algoriddim.zendesk.com/agent/admin/answer_bot","is_account_owner":false,"theming_cookie_key":"hc-da39a3ee5e6b4b0d3255bfef95601890afd807091-preview","is_preview":false,"has_guide_user_segments_search":true,"has_alternate_templates":false,"arrange_articles_url":"https://algoriddim.zendesk.com/knowledge/arrange?brand_id=360000892251","article_verification_url":"https://algoriddim.zendesk.com/knowledge/verification?brand_id=360000892251","has_article_verification":false,"guide_language_settings_url":"https://help.algoriddim.com/hc/admin/language_settings?locale=en-us","docs_importer_url":"https://algoriddim.zendesk.com/knowledge/import_articles?brand_id=360000892251","community_badges_url":"https://algoriddim.zendesk.com/knowledge/community_badges?brand_id=360000892251","community_settings_url":"https://algoriddim.zendesk.com/knowledge/community_settings?brand_id=360000892251","gather_plan_state":"subscribed","search_settings_url":"https://algoriddim.zendesk.com/knowledge/search_settings?brand_id=360000892251","has_multibrand_search_in_plan":false,"theming_api_version":1,"has_pci_credit_card_custom_field":false,"current_brand_id":360000892251,"help_center_restricted":false,"current_brand_active":true,"is_assuming_someone_else":false,"flash_messages":[]};
+</script>
+
+  <script src="//static.zdassets.com/hc/assets/moment-f6f8513da6ab17eadada59a1a4edb536.js"></script>
+  <script src="//static.zdassets.com/hc/assets/hc_enduser-f1dbd5135e2cc85c2cdd3ebf7256c7a3.js"></script>
+  
+<script type="text/javascript">(function(){window['__CF$cv$params']={r:'5f419b308ce1d8b5',m:'e41e801b8ea2bad4548f5c0539ed1d4e00f7d7ed-1605701614-1800-AeDmNipa5Oyr5iM8yPXIoYOI5cHoskWUZXJncgrGmBfd7JON5E3fRcGyYHUlGp3DnpiS36ZRcuHiD/yunfxHxs22DK5sORITBAmJ8Rn2vVQ33q3Mmba15ZMXx8KOp2S0dvT89eL/JVwu5FZhJA3fHfNiRXj6BYoEunUvOam2aCE4PmBn8OEIw3Ob/d5A/zZJKk/GTG/URskJAS1CfZNjink=',s:[0xf9fc73c344,0x6c31072973],}})();</script></body>
+</html>
